@@ -1,5 +1,5 @@
-<!ELEMENT backup_config (device*)>
-<!ELEMENT device (name, backup_schedule, backup_time, backup_directory, backup_day?, backup_month?)>
+<!ELEMENT backup_config (dispositivo*)>
+<!ELEMENT dispositivo (name, backup_schedule, backup_time, backup_directory, backup_day?, backup_month?)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT backup_schedule (#PCDATA)>
 <!ELEMENT backup_time (#PCDATA)>

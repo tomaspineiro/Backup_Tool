@@ -1,10 +1,10 @@
 # Backup Tool
 
-Backup Tool is a Python application designed to automate the backup process of Cisco switches and routers. It provides a user-friendly interface for entering device information and managing backup configurations.
+Backup Tool is a Python application designed to automate the backup process of Cisco switches and routers. It provides a user-friendly interface for entering dispositivo information and managing backup configurations.
 
 ## Features
 
-- **Automated Backups**: The tool allows you to easily schedule and perform automated backups of Cisco devices.
+- **Automated Backups**: The tool allows you to easily schedule and perform automated backups of Cisco dispositivos.
 - **Multiplatform**: The application is developed as a desktop application and is compatible with both Windows and Linux operating systems.
 - **User Interface**: Backup Tool utilizes the Tkinter library to create a graphical user interface, making it intuitive and easy to use.
 - **Configuration Management**: You can modify, delete, and manage backup configurations through the user interface.
@@ -57,7 +57,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-2. Enter the necessary device information in the user interface.
+2. Enter the necessary dispositivo information in the user interface.
 3. Configure the backup settings and schedule as desired.
 4. Click on the "Start Backup" button to initiate the backup process.
 

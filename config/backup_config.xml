@@ -1,33 +1,33 @@
 <!DOCTYPE backup_config SYSTEM "backup_config.dtd">
 
 <backup_config>
-  <device>
+  <dispositivo>
     <name>switch1</name>
     <backup_schedule>daily</backup_schedule>
     <backup_time>23:00</backup_time>
     <backup_directory>/path/to/backup/directory/switch1</backup_directory>
-  </device>
-  <device>
+  </dispositivo>
+  <dispositivo>
     <name>router1</name>
     <backup_schedule>weekly</backup_schedule>
     <backup_day>Saturday</backup_day>
     <backup_time>02:30</backup_time>
     <backup_directory>/path/to/backup/directory/router1</backup_directory>
-  </device>
-  <device>
+  </dispositivo>
+  <dispositivo>
     <name>server1</name>
     <backup_schedule>monthly</backup_schedule>
     <backup_day>1</backup_day>
     <backup_time>04:00</backup_time>
     <backup_directory>/path/to/backup/directory/server1</backup_directory>
-  </device>
-  <device>
+  </dispositivo>
+  <dispositivo>
     <name>firewall1</name>
     <backup_schedule>annual</backup_schedule>
     <backup_month>January</backup_month>
     <backup_day>1</backup_day>
     <backup_time>03:00</backup_time>
     <backup_directory>/path/to/backup/directory/firewall1</backup_directory>
-  </device>
+  </dispositivo>
 </backup_config>
 
