@@ -1,0 +1,10 @@
+<!ELEMENT devices (device*)>
+<!ELEMENT device (name, address, username, password, backup_directory?)>
+<!ATTLIST device type (switch|router|server) #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address EMPTY>
+<!ATTLIST address mask CDATA #REQUIRED>
+<!ATTLIST address ip CDATA #REQUIRED>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT backup_directory (#PCDATA)>

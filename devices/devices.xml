@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE devices SYSTEM "devices.dtd">
+<!-- 
+<devices>
+  <device typo=(switch|router|server)>
+    <name>name_divice</name>
+    <address mask="1-34" ip="0.0.0.0" />
+    <username>user_divice</username>
+    <password>password_divice</password>
+    <backup_directory>/path/to/backup/directory/switch1</backup_directory>
+  </device>
+</devices>  
+-->
+<devices>
+  <device type="switch">
+    <name>switch1</name>
+    <address mask="24" ip="" />
+    <username>admin</username>
+    <password></password>
+    <backup_directory>/path/to/backup/directory/switch1</backup_directory>
+  </device>
+  <device type="server">
+    <name>serverFTP</name>
+    <address mask="25" ip="..." />
+    <username></username>
+    <password></password>
+  </device>
+</devices>
